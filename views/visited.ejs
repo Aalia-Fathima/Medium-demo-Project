@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Project</title>
+</head>
+
+<body>
+    <h2>Please visit us as many times you can, you will be always welcomed by us</h2>
+    <% if (newvisiter) { %>
+        <p>Username: <%= newvisiter.username %>
+        </p>
+        <p>Count: <%= newvisiter.count %>
+        </p>
+        <% } %>
+            <% if(newvisiter.count==1){ %>
+                <p>Welcome to my website, you are new to my website</p>
+                <% } %>
+</body>
+
+</html>
