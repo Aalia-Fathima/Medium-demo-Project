@@ -56,7 +56,7 @@ app.post('/visitors', async (req, res) => {
   }
 })
 
-const port = process.env.PORT || 3000; // Use PORT from the environment or default to 3000
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
